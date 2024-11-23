@@ -8,5 +8,8 @@
 <body>
     <h1>TEST PAGE</h1>
     <h2>Soon there will be a blog:</h2>
+    {% for blog in blogs %}
+        <p>{{blog.title}}</p>
+    {% endfor %}
 </body>
 </html>
